@@ -12,4 +12,4 @@ spec:
   type: database
   lifecycle: production
   subcomponentOf: Webhook
-  owner: team-a
+  owner: webhook
