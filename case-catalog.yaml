@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Case
+  links:
+    - url: https://developer.sprinklr.com/docs/read/webhooks/webhook_response_payload/Case_Webhooks
+      title: Case
+      icon: Case
+  annotations:
+    github.com/project-slug: mohitkrajpoot/SprComponents/case-catalog.yaml
+spec:
+  type: database
+  lifecycle: production
+  subcomponentOf: Webhook
+  owner: team-a
