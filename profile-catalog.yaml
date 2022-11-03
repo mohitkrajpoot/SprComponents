@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: Profile
+  links:
+    - url: https://developer.sprinklr.com/docs/read/webhooks/webhook_response_payload/Profile_Webhooks
+      title: Profile
+      icon: Profile
+  annotations:
+    github.com/project-slug: mohitkrajpoot/SprComponents/profile-catalog.yaml
+spec:
+  type: database
+  lifecycle: production
+  subcomponentOf: Webhook
+  owner: team-a

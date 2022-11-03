@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: Campaign
+  links:
+    - url: https://developer.sprinklr.com/docs/read/webhooks/webhook_response_payload/Campaign_Webhooks
+      title: Campaign
+      icon: Campaign
+  annotations:
+    github.com/project-slug: mohitkrajpoot/SprComponents/campaign-catalog.yaml
+spec:
+  type: database
+  lifecycle: production
+  subcomponentOf: Webhook
+  owner: team-a

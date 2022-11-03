@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: Comment
+  links:
+    - url: https://developer.sprinklr.com/docs/read/webhooks/webhook_response_payload/Comment_Webhooks
+      title: Comment
+      icon: Comment
+  annotations:
+    github.com/project-slug: mohitkrajpoot/SprComponents/comment-catalog.yaml
+spec:
+  type: database
+  lifecycle: production
+  subcomponentOf: Webhook
+  owner: team-a
