@@ -11,4 +11,11 @@ metadata:
 spec:
   type: service
   lifecycle: production
+  dependsOn:
+    - Profile
+    - SAM
+    - Comment
+    - Draft
+    - Campaign
+    - Case
   owner: integration-team
