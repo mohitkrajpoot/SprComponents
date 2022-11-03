@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Webhook
+  links:
+    - url: https://developer.sprinklr.com/docs/read/Webhooks
+      title: Webhook
+      icon: Webhook
+  annotations:
+    github.com/project-slug: mohitkrajpoot/SprComponents/webhook-catalog.yaml
+spec:
+  type: service
+  lifecycle: production
+  owner: team-a
